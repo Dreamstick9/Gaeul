@@ -1,0 +1,30 @@
+*root{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+html, body{
+    width: 100%;
+}
+
+main{
+    width: 100%;
+}
+main section {
+    width: 100%;
+    padding: var(--padding-2xl);
+}
+.btn{
+    padding: var(--padding-sm) var(--padding-lg);
+    border: none;
+    outline: none;
+    border-radius: var(--border-radius-md);
+    background-color: var(--bg-active-color);
+
+}
+main section .top{
+    display: flex;
+    align-items: center;
+    gap:var(--gutter-md);
+}

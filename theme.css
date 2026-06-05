@@ -2,12 +2,13 @@
     /*  bg colorrs */
     --bg-primary-color:rgb(17,17,17);
     --bg-secondary-color:rgb(34,34,34);
-    --bg-active-colors:rbg(233,233,233);
+    --bg-active-color:rbg(233,233,233);
 
     /* text colors */
     --text-primary-color: rgb(255,255,255);
     --text-secondary-color: rgb(200,200,200);
     --text-tertiary-color: rgb(150,150,150);
+    --text-active-color: rgb(24,24,24);
 
     /* paddings */
 
@@ -32,5 +33,10 @@
     --font-size-2xl: 1.5rem;
 
     /* border radius */
+    --border-radius-sm: 0.2rem;
+    --border-radius-md: 0.25 rem;
+    --border-radius-lg: 0.3 rem;
+    --border-radius-xl: 0.4 rem;
+    --border-radius-2xl: 0.5rem;
 
 }
